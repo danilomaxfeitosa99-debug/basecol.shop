@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zdravie dnes | Skutočná príčina cukrovky, ktorú chceli utajiť</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.7;
+            font-size: 17px;
+        }
+        .advertorial-bar {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.85em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .container {
+            max-width: 780px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 32px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #d32f2f;
+            font-size: 1.95em;
+            text-align: center;
+            margin-bottom: 12px;
+            line-height: 1.25;
+        }
+        .deck {
+            font-size: 1.05em;
+            color: #444;
+            border-left: 4px solid #d32f2f;
+            padding-left: 14px;
+            margin: 12px 0 20px;
+            font-style: italic;
+            line-height: 1.6;
+        }
+        .author-box {
+            background-color: #f9f9f9;
+            padding: 13px 15px;
+            border-left: 4px solid #2c3e50;
+            margin-bottom: 22px;
+            font-size: 0.88em;
+            color: #555;
+        }
+        h2 {
+            color: #2c3e50;
+            font-size: 1.4em;
+            margin-top: 28px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 14px;
+        }
+        p { margin-bottom: 16px; }
+        .image-link {
+            display: block;
+            text-align: center;
+            margin: 22px 0;
+            transition: transform 0.2s ease;
+        }
+        .image-link:hover { transform: scale(1.02); }
+        .hero-image {
+            width: 100%;
+            max-width: 700px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+        .pull-quote {
+            border-top: 2px solid #1a1a1a;
+            border-bottom: 2px solid #1a1a1a;
+            margin: 26px 0;
+            padding: 16px 20px;
+            font-size: 1.15em;
+            font-style: italic;
+            color: #1a1a1a;
+            line-height: 1.5;
+            text-align: center;
+        }
+        .danger-box {
+            background-color: #fff5f5;
+            border: 1px solid #ffcccc;
+            border-left: 5px solid #d32f2f;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-size: 1em;
+            line-height: 1.65;
+        }
+        .danger-box strong { color: #d32f2f; }
+        .highlight-box {
+            background-color: #fffbea;
+            border: 1px solid #e8c900;
+            border-left: 5px solid #FFD700;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-size: 1em;
+            line-height: 1.65;
+        }
+        .highlight-box strong { color: #7a5c00; }
+        .cta-button {
+            display: block;
+            width: 90%;
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 20px 20px;
+            background: linear-gradient(to bottom, #FFD700, #FFA500);
+            color: #000;
+            text-decoration: none;
+            font-size: 1.3em;
+            font-weight: 900;
+            border-radius: 8px;
+            text-align: center;
+            text-transform: uppercase;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            border: 2px solid #e69500;
+            animation: pulse 2s infinite;
+            line-height: 1.3;
+        }
+        .cta-button:hover {
+            background: linear-gradient(to bottom, #FFA500, #FF8C00);
+            transform: translateY(-2px);
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+            100% { transform: scale(1); }
+        }
+        .cta-sub {
+            text-align: center;
+            font-size: 0.82em;
+            color: #888;
+            margin-top: 8px;
+        }
+        .footer {
+            background-color: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 36px 20px;
+            font-size: 0.82em;
+            margin-top: 40px;
+        }
+        .footer-content { max-width: 780px; margin: 0 auto; }
+        .disclaimer-box {
+            border: 1px solid #444;
+            padding: 14px;
+            margin-bottom: 18px;
+            text-align: justify;
+            font-size: 0.8em;
+            line-height: 1.4;
+            background-color: #1a1a1a;
+        }
+        .footer a { color: #ddd; text-decoration: none; margin: 0 10px; }
+        .footer a:hover { text-decoration: underline; color: #fff; }
+        .company-info { margin-top: 18px; font-weight: bold; color: #ccc; }
+        @media (max-width: 600px) {
+            .container { margin: 0; padding: 16px; border-radius: 0; }
+            h1 { font-size: 1.55em; }
+            .cta-button { font-size: 1.1em; width: 100%; }
+        }
+    </style>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+</head>
+<body>
+
+<div class="advertorial-bar">
+    REKLAMNÝ ČLÁNOK | SPONZOROVANÝ OBSAH
+</div>
+
+<div class="container">
+
+    <h1>Lekár, ktorý prišiel o licenciu, pretože pacientom odhalil skutočnú príčinu cukrovky 2. typu</h1>
+
+    <div class="deck">
+        Na verejnosť prenikol šokujúci objav. Farmaceutický priemysel urobil všetko, aby ho potlačil. Teraz je však tu — a to, čo uvidíte vo videu, navždy zmení váš pohľad na cukrovku.
+    </div>
+
+    <div class="author-box">
+        <strong>Zverejnené:</strong> Dnes &nbsp;|&nbsp; <strong>Redakcia Zdravie dnes</strong> &nbsp;|&nbsp; Čas čítania: 2 minúty
+    </div>
+
+    <a href="https://lp.basecol.shop/preclick" class="image-link">
+        <img src="./img/herooo.webp" alt="Skutočná príčina cukrovky" class="hero-image">
+    </a>
+
+    <p>Každé ráno sa zobudíte a prvou myšlienkou je hladina cukru v krvi. Metformín. Inzulín. Zoznam zakázaných jedál, ktorý sa stále predlžuje. Nohy, ktoré v noci tŕpnu. Zrak, ktorý slabne. A tichý strach — nie zo smrti, ale z dňa, keď už nič nezvládnete sami.</p>
+
+    <p>Už roky vám hovoria, že tento stav sa nedá zvládnuť. Že sa s ním musíte zmieriť. Že lieky sú jedinou cestou. <strong>A čo ak sa všetci mýlili — vrátane vášho lekára?</strong></p>
+
+    <div class="danger-box">
+        <strong>⚠ Čo vám váš lekár nikdy nepovedal:</strong> Dvaja svetoznámi lekári — ktorých mená farmaceutický priemysel vymazal z internetu — objavili niečo, čo otriaslo lekárskou komunitou. Skutočná príčina cukrovky 2. typu je úplne iná, než ste si mysleli. Za svoj objav boli okamžite umlčaní.
+    </div>
+
+    <h2>Objav, ktorý sa pokúsili vymazať</h2>
+
+    <p>Keď títo dvaja lekári zverejnili svoj objav, reakcia prišla okamžite. Ich videá odstránili. Účty vymazali. Kontaktovali ich právnici. Veľké farmaceutické spoločnosti urobili všetko, aby sa tieto informácie nešírili.</p>
+
+    <p>Prečo taká panika? Pretože keby ľudia poznali pravdu, nikto by si nekupoval metformín, inzulín ani drahé lieky, ktoré liečia iba príznaky — nikdy nie príčinu.</p>
+
+    <div class="pull-quote">
+        „Prišli sme o licenciu. Naše videá vymazali. Pravdu však už nemožno vziať späť.“
+    </div>
+
+    <a href="https://lp.basecol.shop/preclick" class="image-link">
+        <img src="./img/img222.webp" alt="Skutočná príčina a riešenie" class="hero-image">
+    </a>
+
+    <h2>Čo presne video obsahuje?</h2>
+
+    <p>Skôr než ich definitívne umlčali, títo dvaja lekári nahrali podrobné video. Vysvetľujú v ňom skutočnú príčinu cukrovky 2. typu — ktorá sa šokujúco líši od toho, čo ste si mysleli — a prekvapivo jednoduché prírodné riešenie používané po generácie na mieste, kde je cukrovka takmer neznáma.</p>
+
+    <div class="highlight-box">
+        <strong>Čo nájdete vo videu?</strong> Úplné vysvetlenie skutočnej príčiny. Prírodné riešenie, ktoré chceli farmaceutické spoločnosti zatajiť. A tiež návod, ako ho môžete použiť ešte dnes — doma, bez receptu a bez lekárskeho zákroku.
+    </div>
+
+    <div class="danger-box">
+        <strong>⚠ Upozornenie:</strong> Video obsahuje informácie, ktoré farmaceutický priemysel nechce, aby ste videli. Už niekoľkokrát sa ho pokúsili odstrániť. Ak je teraz dostupné — pozrite si ho hneď. Neodkladajte to na zajtra.
+    </div>
+
+    <a href="https://lp.basecol.shop/preclick" class="cta-button">
+        ▶ POZRITE SI VIDEO TERAZ
+    </a>
+    <p class="cta-sub">Bezplatný prístup · Dostupné len obmedzený čas</p>
+
+</div>
+
+<div class="footer">
+    <div class="footer-content">
+        <div class="disclaimer-box">
+            <strong>DÔLEŽITÉ UPOZORNENIE:</strong> Táto webová stránka nie je súčasťou webovej stránky Facebooku ani spoločnosti Facebook Inc. Facebook túto stránku nijako nepodporuje. Stránka a jej obsah slúžia výhradne na informačné a vzdelávacie účely. Uvedené informácie nemožno považovať za lekársku radu. Výsledky sa môžu líšiť a nie sú zaručené. <strong>Príbeh a osoby uvedené v článku slúžia na ilustračné účely.</strong> Pred začatím akéhokoľvek nového zdravotného programu sa vždy poraďte so svojím lekárom.
+        </div>
+        <p>
+            <a href="./privacy.html">Zásady ochrany osobných údajov</a> |
+            <a href="./terms.html">Podmienky používania</a> |
+            <a href="mailto:contato@basecol.com.br">Kontakt</a>
+        </p>
+        <div class="company-info">
+            FONTS NEXUS LTDA<br>
+            CNPJ: 67.232.158/0001-68<br>
+            Brasil
+        </div>
+        <p style="margin-top: 18px;">&copy; 2025 Zdravie dnes. Všetky práva vyhradené.</p>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://lp.basecol.shop/pretrack.js?rtkcmpid=6ab562aebd892e257188804e"></script></body>
+</html>
